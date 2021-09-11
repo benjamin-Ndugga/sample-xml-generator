@@ -1,0 +1,5 @@
+test/co/ug/sample/xml/generator/AuthHeader.class
+test/co/ug/sample/xml/generator/Message.class
+test/co/ug/sample/xml/generator/Field.class
+test/co/ug/sample/xml/generator/MainClass.class
+test/co/ug/sample/xml/generator/Isomsg.class

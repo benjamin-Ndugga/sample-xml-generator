@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message>
+    <authHeader sourceid="300147" password="5269"/>
+    <isomsg>
+        <field id="11" value="045688"/>
+        <field id="33" value="080147"/>
+        <field id="12" value="172440"/>
+        <field id="68" value="Account Lookup"/>
+        <field id="37" value="000008045688"/>
+        <field id="49" value="800"/>
+        <field id="signature" value="vT4AImewTaNWXEmKzewf1gwo/Tzf3QsVwixZgJRgfy3kA8mD2XDMD2mBDVCwf++dy4ppfI+6IYdNJ3HS57aPbwnXK0E1BxrzZGrwPDHuXYLOtC9FNnkzmdAgDoWRcSNX18i10yHlQRBACNpB4sZMf+I9PjcLDkPqGJzYSaVBrrisXUCGx2QH9Rrlyn5z0/k6uTWZD35IL5B67feNmyUq33FqVPm2J7cm/yGIJqRH1wfxK0hPASxKO7tIx494gwPoixhrOdcXGZ4zvFwHJbWhJNRyE5z243jDtifNFrit+E6cyJWFUq3GO8jueRN7w0/bl5rA7Zvi2aRwgDfn9HWx3w=="/>
+        <field id="0" value="1200"/>
+        <field id="100" value="ACI"/>
+        <field id="101" value="300147719"/>
+        <field id="3" value="360000"/>
+        <field id="4" value="0"/>
+        <field id="103" value="0103012889"/>
+        <field id="7" value="0910172440"/>
+        <field id="41" value="1446002"/>
+        <field id="96" value="1446002"/>
+        <field id="32" value="EQUITY"/>
+        <field id="43" value="CASHIN COMPANY LTD ."/>
+    </isomsg>
+</message>

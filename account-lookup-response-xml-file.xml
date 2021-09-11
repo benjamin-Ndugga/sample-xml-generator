@@ -1,0 +1,59 @@
+<?xml version= '1.0' encoding= 'utf-8'?>
+<message>
+    <authHeader sourceid='' password=''/>
+    <isomsg direction='response'>
+        <field id='17' value='0910' />
+        <field id='22' value='060147' />
+        <field id='23' value='300147' />
+        <field id='26' value='0' />
+        <field id='27' value='0' />
+        <field id='68' value='Account lookup 0103012889' />
+        <field id='24' value='0.0' />
+        <field id='25' value='0' />
+        <field id='60' value='REMOTE-ON-US' />
+        <field id='106' value='v1.0.2~BANKAPI' />
+        <field id='103' value='0103012889' />
+        <field id='102' value='0103012889' />
+        <field id='101' value='300147719' />
+        <field id='100' value='ACI' />
+        <field id='11' value='045688' />
+        <field id='12' value='172440' />
+        <field id='15' value='0910' />
+        <field id='13' value='0910' />
+        <field id='14' value='2109' />
+        <field id='92' value='REMOTE-ON-US' />
+        <field id='96' value='1446002' />
+        <field id='93' value='OFF-US' />
+        <field id='119' value='1' />
+        <field id='118' value='1' />
+        <field id='117' value='300147' />
+        <field id='116' value='060147' />
+        <field id='112' value='Successful' />
+        <field id='111' value='00' />
+        <field id='39' value='00' />
+        <field id='43' value='JUTAH STATIONERS LIMITED-NKURUMAH RD    ' />
+        <field id='48' value='Successful' />
+        <field id='49' value='UGX' />
+        <field id='81' value='0' />
+        <field id='84' value='32.5605403' />
+        <field id='41' value='1446002' />
+        <field id='83' value='0.373456' />
+        <field id='127' value='PETER KABIRA' />
+        <field id='126' value='image' />
+        <field id='125' value='image' />
+        <field id='124' value='image' />
+        <field id='122' value='image' />
+        <field id='28' value='0' />
+        <field id='29' value='0.0' />
+        <field id='33' value='060147' />
+        <field id='31' value='ANM' />
+        <field id='0' value='1210' />
+        <field id='32' value='EQUITY' />
+        <field id='37' value='000008045688' />
+        <field id='7' value='0910172440' />
+        <field id='3' value='360000' />
+        <field id='2' value='0601470000000000' />
+        <field id='30' value='0' />
+        <field id='4' value='0' />
+    </isomsg>
+</message>
