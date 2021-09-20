@@ -5,7 +5,7 @@
  */
 package test.co.ug.sample.xml.generator;
 
-import javax.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
 
 /**
  *

@@ -1,21 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package test.co.ug.sample.xml.generator;
 
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.Marshaller;
+import jakarta.xml.bind.Unmarshaller;
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.net.URI;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.Unmarshaller;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -34,14 +28,17 @@ public class MainClass {
     public static void main(String[] args) throws Exception {
 
         String xml_request = convertJavaToXml();
+        
+        System.out.println("Request:\n"+xml_request);
+        
         String token = "";
 
-        URIBuilder builder = new URIBuilder("URL");
+        URIBuilder builder = new URIBuilder("http://localhost:8080/service");
         URI uri = builder.build();
         HttpPost httpPost = new HttpPost(uri);
         httpPost.setHeader("Accept", "text/xml");
         httpPost.setHeader("Content-type", "text/xml");
-        httpPost.setHeader("Authorization", "Bearer " + token);
+        //httpPost.setHeader("Authorization", "Bearer " + token);
 
         httpPost.setEntity(new StringEntity(xml_request));
 
@@ -59,6 +56,8 @@ public class MainClass {
             String xml_response_body = EntityUtils.toString(entity);
             //convert the xml to a java object
             Message message = convertXmltoJava(xml_response_body);
+            
+            System.out.println(message);
         } else {
         }
 
